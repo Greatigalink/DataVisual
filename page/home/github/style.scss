@@ -1,0 +1,39 @@
+.home-github-demo {
+  margin: 100px 10% 0 10%;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 10px;
+      max-width: 340px;
+      min-width: 250px;
+      height: 170px;
+      background-size: cover;
+      border-radius: 20px;
+      color: white;
+      aside {
+        height: 50%;
+        text-align: left;
+        padding: 15px 0 0 15px;
+        strong {
+          margin-left: 10px;
+          font-size: 16px;
+        }
+      }
+      article {
+        height: 50%;
+        background: rgba($color: #212121, $alpha: 0.5);
+        border-radius: 0 0 20px 20px;
+        p {
+          font-size: 17px;
+          color: #e1bee7;
+        }
+        span {
+          margin: 3px;
+        }
+      }
+    }
+  }
+}
